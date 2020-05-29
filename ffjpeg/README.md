@@ -1,6 +1,6 @@
 
 
-# SEGV in function bmp_load at bmp.c:57
+# SEGV in function bmp_load at bmp.c:57(CVE-2020-13440)
 
 Tested in Ubuntu 16.04, 64bit.
 
@@ -94,7 +94,7 @@ SUMMARY: AddressSanitizer: SEGV ??:0 ??
 
 An attacker can exploit this vulnerability by submitting a malicious bmp that exploits this bug which will result in a Denial of Service (DoS).
 
-# SEGV in function jfif_encode in jfif.c:748
+# SEGV in function jfif_encode in jfif.c:748(CVE-2020-13438)
 
 Tested in Ubuntu 16.04, 64bit.
 
@@ -219,7 +219,7 @@ gdb-peda$ bt
 
 An attacker can exploit this vulnerability by submitting a malicious bmp that exploits this bug which will result in a Denial of Service (DoS).
 
-# heap-buffer-overflow in function jfif_decode at jfif.c:546
+# heap-buffer-overflow in function jfif_decode at jfif.c:546(CVE-2020-13439)
 
 Tested in Ubuntu 16.04, 64bit.
 
