@@ -2,6 +2,8 @@
 
 Tested in Ubuntu 16.04, 64bit.
 
+The tested program is the example program dump_line.
+
 The testcase is [dump_line_segv](dump_line_segv).
 
 I use the following command:
@@ -89,6 +91,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 # SEGV in function dwarf::cursor::skip_form at dwarf/cursor.cc:181
 
 Tested in Ubuntu 16.04, 64bit.
+
+The tested program is the example program dump_line.
 
 The testcase is [dump_line_segv2](dump_line_segv2).
 
@@ -183,6 +187,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 # Global-Buffer-Overflow in function dwarf::line_table::line_table at dwarf/line.cc:107
 
 Tested in Ubuntu 16.04, 64bit.
+
+The tested program is the example program dump_line.
 
 The testcase is [dump_line_global_buffer_overflow](dump_line_global_buffer_overflow).
 
