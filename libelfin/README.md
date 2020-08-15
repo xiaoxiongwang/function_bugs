@@ -553,7 +553,7 @@ SUMMARY: AddressSanitizer: SEGV /path-to-libelfin-address/dwarf/internal.hh:154 
 ==21215==ABORTING
 ```
 
-An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS) even buffer overflow.
+An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS).
 
 # SEGV in function dwarf::to_string at dwarf/value.cc:300
 
@@ -680,7 +680,7 @@ Shadow byte legend (one shadow byte represents 8 application bytes):
 ==22134==ABORTING
 ```
 
-An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS) even buffer overflow.
+An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS).
 
 # SEGV in function dwarf::cursor::skip_form at dwarf/cursor.cc:191
 
@@ -776,4 +776,4 @@ SUMMARY: AddressSanitizer: SEGV /path-to-libelfin-address/dwarf/cursor.cc:191 dw
 ==451==ABORTING
 ```
 
-An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS) even buffer overflow.
+An attacker can exploit this vulnerability by submitting a malicious elf file that exploits this bug which will result in a Denial of Service (DoS).
