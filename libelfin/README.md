@@ -2,7 +2,7 @@
 
 Tested in Ubuntu 16.04, 64bit.
 
-The tested program is the example program dump_line.
+The tested program is the example program dump-lines.
 
 The testcase is [dump_line_segv](dump_line_segv).
 
@@ -92,7 +92,7 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 
 Tested in Ubuntu 16.04, 64bit.
 
-The tested program is the example program dump_line.
+The tested program is the example program dump-lines.
 
 The testcase is [dump_line_segv2](dump_line_segv2).
 
@@ -188,7 +188,7 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 
 Tested in Ubuntu 16.04, 64bit.
 
-The tested program is the example program dump_line.
+The tested program is the example program dump-lines.
 
 The testcase is [dump_line_global_buffer_overflow](dump_line_global_buffer_overflow).
 
@@ -311,6 +311,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 
 Tested in Ubuntu 16.04, 64bit.
 
+The tested program is the example program dump-syms.
+
 The testcase is [dump_syms_segv](dump_syms_segv).
 
 I use the following command:
@@ -400,6 +402,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 # SEGV in function dwarf::cursor::uleb128 at dwarf/internal.hh:154
 
 Tested in Ubuntu 16.04, 64bit.
+
+The tested program is the example program dump-tree.
 
 The testcase is [dump_tree_segv](dump_tree_segv).
 
@@ -555,6 +559,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 
 Tested in Ubuntu 16.04, 64bit.
 
+The tested program is the example program dump-tree.
+
 The testcase is [dump_tree_segv2](dump_tree_segv2).
 
 I use the following command:
@@ -679,6 +685,8 @@ An attacker can exploit this vulnerability by submitting a malicious elf file th
 # SEGV in function dwarf::cursor::skip_form at dwarf/cursor.cc:191
 
 Tested in Ubuntu 16.04, 64bit.
+
+The tested program is the example program dump-tree.
 
 The testcase is [dump_tree_segv3](dump_tree_segv3).
 
